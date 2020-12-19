@@ -26,59 +26,64 @@ function HomePage() {
             There are going to be at least 3 key features that I am going to try and implement so that way we can make this year kinda of and basically our year in a way. I want us to be succussful and with that to come there is going to be a few things that we need to do or get started with. But hopefully youre little gift that you recieve will explain more of it.
           </p>
 
-          <div className="objective objective-one">
+          <div className="section-container">
 
-            <div className="objective-image-container">
-                <img src="../img/coding.jpg" alt="objective one" />
+            <div className="objective objective-one">
+
+              <div className="objective-image-container">
+                  <img src="../img/coding.jpg" alt="objective one" />
+              </div>
+              <ul>
+                <li>Coding
+                  <ul>
+                    <li>Learn <strong>HTML + CSS</strong></li>
+                    <li>Learn <strong>Javascript</strong></li>
+                    <li>Learn <strong>Python</strong></li>
+                  </ul>
+                </li>
+              </ul>
+
             </div>
-            <ul>
-              <li>Coding
-                <ul>
-                  <li>Learn <strong>HTML + CSS</strong></li>
-                  <li>Learn <strong>Javascript</strong></li>
-                  <li>Learn <strong>Python</strong></li>
-                </ul>
-              </li>
-            </ul>
 
-          </div>
-
-          <div className="objective objective-two">
-            <div className="objective-image-container">
-                <img src="../img/growing-seed.jpg" alt="objective two" />
+            <div className="objective objective-two">
+              <div className="objective-image-container">
+                  <img src="../img/growing-seed.jpg" alt="objective two" />
+              </div>
+              <ul>
+                <li>
+                  Growing
+                  <ul>
+                    <li>Instagram</li>
+                    <li>Facebook</li>
+                    <li>Youtube</li>
+                    <li>Reddit?!?</li>
+                  </ul>
+                </li>
+              </ul>
             </div>
-            <ul>
-              <li>
-                Growing
-                <ul>
-                  <li>Instagram</li>
-                  <li>Facebook</li>
-                  <li>Youtube</li>
-                  <li>Reddit?!?</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
 
-          <div className="objective objective-three">
-            <div className="objective-image-container">
-                <img src="../img/passive-income.jpg" alt="objective two" />
+            <div className="objective objective-three">
+              <div className="objective-image-container">
+                  <img src="../img/passive-income.jpg" alt="objective two" />
+              </div>
+              <ul>
+                <li>
+                  Passive Income
+                  <ul>
+                    <li>Crypto</li>
+                    <li>Stock + Investment</li>
+                    <li>Buisness</li>
+                  </ul>
+                </li>
+              </ul>
             </div>
-            <ul>
-              <li>
-                Passive Income
-                <ul>
-                  <li>Crypto</li>
-                  <li>Stock + Investment</li>
-                  <li>Buisness</li>
-                </ul>
-              </li>
-            </ul>
+
           </div>
 
         </div>
 
       </section>
+
 
     </main>
   )
